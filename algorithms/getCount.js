@@ -6,10 +6,11 @@ function getCount(str) {
     let countingLetter = 0;
     //create a array of the vowels
     const vowelAlphabet = ['a','e','i','o','u'];
-    //create a loop to loop through the array of the arguement passed inside the function
+    //create a loop to loop through the arguement passed in getCount parameter
     for(let checkEachSrting of str) {
-        //check if the vaues in the array is part of the 
+        //use the includes method to check if the values of vowelAlphabet is equal to any looped value from checkString  
         if(vowelAlphabet.includes(checkEachSrting)) {
+            //if true, it should increase the count by 1
             countingLetter += 1
         }
     }
