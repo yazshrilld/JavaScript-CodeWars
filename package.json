@@ -1,0 +1,28 @@
+{
+  "name": "javascript-codewars",
+  "version": "1.0.0",
+  "description": "Solving data structures and algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazshrilld/JavaScript-CodeWars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazshrilld/JavaScript-CodeWars/issues"
+  },
+  "homepage": "https://github.com/yazshrilld/JavaScript-CodeWars#readme",
+  "dependencies": {
+    "@codewars/test-compat": "^1.1.0",
+    "chai": "^4.3.7",
+    "jest": "^29.3.1"
+  }
+}
