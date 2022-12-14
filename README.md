@@ -10,3 +10,5 @@ Search word for your training: Training JS series - for [javascript beginner - m
 
 ## Training Series
 1. [Training JS #1: create your first JS function and print "Hello World!"](https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8/train/javascript)
+
+2. [Training JS #2: Basic data types--Number](https://www.codewars.com/kata/571edd157e8954bab500032d/train/javascript)
