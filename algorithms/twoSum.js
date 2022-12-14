@@ -2,6 +2,7 @@ const result = getCount("agdidkdkd")
 console.log(result)
 // [10, 20, 3, 4, 5]
 //80
+//solved using two ethods
 const twoSum = (arr, target) => {
     for(let i = 0; i < arr.length; i++) {
         const diff = target - arr[i]
