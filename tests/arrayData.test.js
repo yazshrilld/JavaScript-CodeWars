@@ -1,9 +1,12 @@
-describe("Tests", () => {
-    it("test", () => {
-      Test.assertSimilar(getLength([1,2,3]),3);
-      Test.assertSimilar(getFirst([1,2,3]),1);
-      Test.assertSimilar(getLast([1,2,3]),3);
-      Test.assertSimilar(pushElement([1,2,3]).length,4);
-      Test.assertSimilar(popElement([1,2,3]).length,2);
+const { assert } = require("chai");
+const {getLength, getFirst, getLast, pushElement, popElement} = require("../algorithms/arrayData.js")
+
+describe("asserts", () => {
+    it("assert", () => {
+      assert.equal(getLength([1,2,3]),3);
+      assert.equal(getFirst([1,2,3]),1);
+      assert.equal(getLast([1,2,3]),3);
+      assert.equal(pushElement([1,2,3]).length,4);
+      assert.equal(popElement([1,2,3]).length,2);
     });
   });

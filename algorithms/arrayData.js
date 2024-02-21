@@ -21,3 +21,5 @@ function getLength(arr){
     arr.pop()
     return arr
   }
+
+module.exports = {getLength, getFirst, getLast, pushElement, popElement};

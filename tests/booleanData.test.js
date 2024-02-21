@@ -1,49 +1,50 @@
 const {assert} = require("chai")
+const trueOrFalse = require("../algorithms/booleanData.js")
 
-describe("Tests", () => {
-    it("test", () => {
-      //test for equations and inequalities
+describe("asserts", () => {
+    it("assert", () => {
+      //assert for equations and inequalities
       var a=1,b=2,c=1;
-      Test.assertSimilar(trueOrFalse(a>b),"false");
-      Test.assertSimilar(trueOrFalse(a===b),"false");
-      Test.assertSimilar(trueOrFalse(a<b),"true");
-      Test.assertSimilar(trueOrFalse(a!==b),"true");
-      Test.assertSimilar(trueOrFalse(b>c),"true");
-      Test.assertSimilar(trueOrFalse(b===c),"false");
-      Test.assertSimilar(trueOrFalse(b<c),"false");
-      Test.assertSimilar(trueOrFalse(b!==c),"true");
-      Test.assertSimilar(trueOrFalse(a===c),"true");
-      Test.assertSimilar(trueOrFalse(a!==c),"false");
-      //test for logical operators and bitwise operators
+      assert.equal(trueOrFalse(a>b),"false");
+      assert.equal(trueOrFalse(a===b),"false");
+      assert.equal(trueOrFalse(a<b),"true");
+      assert.equal(trueOrFalse(a!==b),"true");
+      assert.equal(trueOrFalse(b>c),"true");
+      assert.equal(trueOrFalse(b===c),"false");
+      assert.equal(trueOrFalse(b<c),"false");
+      assert.equal(trueOrFalse(b!==c),"true");
+      assert.equal(trueOrFalse(a===c),"true");
+      assert.equal(trueOrFalse(a!==c),"false");
+      //assert for logical operators and bitwise operators
       var t=true,f=false;
-      Test.assertSimilar(trueOrFalse(t&&f),"false");
-      Test.assertSimilar(trueOrFalse(f&&f),"false");
-      Test.assertSimilar(trueOrFalse(t&&t),"true");
-      Test.assertSimilar(trueOrFalse(t||f),"true");
-      Test.assertSimilar(trueOrFalse(t||t),"true");
-      Test.assertSimilar(trueOrFalse(f||f),"false");
-      Test.assertSimilar(trueOrFalse(t&f),"false");
-      Test.assertSimilar(trueOrFalse(t&t),"true");
-      Test.assertSimilar(trueOrFalse(f&f),"false");
-      Test.assertSimilar(trueOrFalse(t|f),"true");
-      Test.assertSimilar(trueOrFalse(t|t),"true");
-      Test.assertSimilar(trueOrFalse(f|f),"false");
-      Test.assertSimilar(trueOrFalse(!t),"false");
-      Test.assertSimilar(trueOrFalse(!f),"true");
-      Test.assertSimilar(trueOrFalse(t^f),"true");
-      Test.assertSimilar(trueOrFalse(t^t),"false");
-      Test.assertSimilar(trueOrFalse(f^f),"false");
-      //test for implicit conversion 
-      Test.assertSimilar(trueOrFalse(true),"true");
-      Test.assertSimilar(trueOrFalse(123),"true");
-      Test.assertSimilar(trueOrFalse("123"),"true");
-      Test.assertSimilar(trueOrFalse(["123"]),"true");
-      Test.assertSimilar(trueOrFalse("false"),"true");
-      Test.assertSimilar(trueOrFalse(false),"false");
-      Test.assertSimilar(trueOrFalse(0),"false");
-      Test.assertSimilar(trueOrFalse(""),"false");
-      Test.assertSimilar(trueOrFalse(null),"false");
-      Test.assertSimilar(trueOrFalse([].length),"false");
-      Test.assertSimilar(trueOrFalse(undefined),"false");
+      assert.equal(trueOrFalse(t&&f),"false");
+      assert.equal(trueOrFalse(f&&f),"false");
+      assert.equal(trueOrFalse(t&&t),"true");
+      assert.equal(trueOrFalse(t||f),"true");
+      assert.equal(trueOrFalse(t||t),"true");
+      assert.equal(trueOrFalse(f||f),"false");
+      assert.equal(trueOrFalse(t&f),"false");
+      assert.equal(trueOrFalse(t&t),"true");
+      assert.equal(trueOrFalse(f&f),"false");
+      assert.equal(trueOrFalse(t|f),"true");
+      assert.equal(trueOrFalse(t|t),"true");
+      assert.equal(trueOrFalse(f|f),"false");
+      assert.equal(trueOrFalse(!t),"false");
+      assert.equal(trueOrFalse(!f),"true");
+      assert.equal(trueOrFalse(t^f),"true");
+      assert.equal(trueOrFalse(t^t),"false");
+      assert.equal(trueOrFalse(f^f),"false");
+      //assert for implicit conversion 
+      assert.equal(trueOrFalse(true),"true");
+      assert.equal(trueOrFalse(123),"true");
+      assert.equal(trueOrFalse("123"),"true");
+      assert.equal(trueOrFalse(["123"]),"true");
+      assert.equal(trueOrFalse("false"),"true");
+      assert.equal(trueOrFalse(false),"false");
+      assert.equal(trueOrFalse(0),"false");
+      assert.equal(trueOrFalse(""),"false");
+      assert.equal(trueOrFalse(null),"false");
+      assert.equal(trueOrFalse([].length),"false");
+      assert.equal(trueOrFalse(undefined),"false");
     });
   });

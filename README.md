@@ -20,3 +20,6 @@ Search word for your training: Training JS series - for [javascript beginner - m
 5. [Training JS #5: Basic data types--Object](https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript)
 
 6. [Training JS #6: Basic data types--Boolean and conditional statements if..else](https://www.codewars.com/kata/571f832f07363d295d001ba8/train/javascript)
+
+7. [Training JS #6: if..else and ternary operator]()
+8. [Training JS #6: Conditional Statement--switch]()

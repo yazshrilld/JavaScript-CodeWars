@@ -1,8 +1,5 @@
-function animal(obj){
+function animal(obj) {
+  return `This ${obj.color} ${obj.name} has ${obj['legs']} legs.`
+};
 
-    const obj = {name:"dog",legs:4,color:"white"}
-    console.log(obj.name)
-    // return `This ${obj.color} ${obj.name} has ${obj['legs']} legs.
-}
-
-module.exports = animal
+module.exports = animal;
